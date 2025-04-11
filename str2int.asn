@@ -1,0 +1,10 @@
+StringToInteger DEFINITIONS ::= BEGIN
+
+	StrToIntMapItem ::= SEQUENCE {
+		skey UTF8String,
+		ikey INTEGER
+	}
+
+	StrToIntMap ::= SEQUENCE OF StrToIntMapItem
+
+END
